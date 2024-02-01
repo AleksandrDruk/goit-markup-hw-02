@@ -1,0 +1,159 @@
+:root {
+    --title-color: #2e2f42;
+    --sub-text-color: #434455;
+    --hover-color: #404bbf;
+    --btn-color: #4d5ae5;
+    --btn-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    --contacts-color: #434455;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--sub-text-color);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--title-color);
+}
+
+.title-card {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    /* margin-bottom: 8px; */
+}
+
+.sub-text {
+    color: var(--sub-text-color);
+}
+
+/*Header*/
+
+.nav-link {
+    font-weight: 500;
+    color: var(--title-color);
+}
+
+.contacts-link {
+    color: var(--contacts-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--hover-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--hover-color);
+}
+
+/*Header-end*/
+
+
+/*Section-order*/
+
+.order {
+    background-color: #2e2f42;
+}
+
+.oreder-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.order-btn {
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.04em;
+
+    border-radius: 4px;
+    padding: 16px 32px;
+    background-color: var(--btn-color);
+    box-shadow: var(--btn-shadow);
+    border: none;
+    /* margin: 0 auto;
+    display: block; */
+}
+
+/*Section-order-end*/
+
+
+/*Section-advantages*/
+
+/*Section-advantages-end*/
