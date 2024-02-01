@@ -23,7 +23,7 @@
 } */
 
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -53,7 +53,7 @@ img {
 
 address {
     font-style: inherit;
-}
+} */
 
 button {
     cursor: pointer;
@@ -116,7 +116,7 @@ body {
 
 /*Header*/
 
-.header-logo span {
+.header-logo-span {
     color: var(--title-color);
 }
 
@@ -204,7 +204,7 @@ body {
     color: var(--footer-text-color);
 }
 
-.footer-logo span {
+.footer-logo-span {
     color: var(--footer-logo-color)
 }
 
