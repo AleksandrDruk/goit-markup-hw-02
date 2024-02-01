@@ -33,7 +33,7 @@ p {
     margin-top: 0;
     margin-bottom: 0;
 }
-
+*/
 ul {
     padding-left: 0;
     margin: 0;
@@ -45,15 +45,16 @@ a {
     text-decoration: none;
 }
 
+/*
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
-
+*/
 address {
-    font-style: inherit;
-} */
+    font-style: normal;
+}
 
 button {
     cursor: pointer;
